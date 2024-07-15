@@ -1,0 +1,37 @@
+{
+  "name": "@master-harttmans/vintage.js",
+  "version": "1.0.0",
+  "description": "use it",
+  "main": "./src/exports.js",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "eris": "^0.17.2",
+    "opusscript": "^0.0.8",
+    "tweetnacl": "^1.0.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/master-harttman/vintage.js.git"
+  },
+  "keywords": [
+    "js",
+    "discord",
+    "vintage",
+    "easy",
+    "lib",
+    "api",
+    "discord-api",
+    "discordapi"
+  ],
+  "author": "master-harttmans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/master-harttman/vintage.js/issues"
+  },
+  "homepage": "https://github.com/master-harttman/vintage.js#readme"
+}
