@@ -14,3 +14,7 @@ const bot = new Client({
 bot.command("ping", "$ping[]");
 bot.start();
 ```
+install:
+```
+npm i @master-harttmans/vintage.js
+```
