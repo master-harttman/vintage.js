@@ -1,11 +1,12 @@
 const Eris = require("eris");
-const { Inerprer } = require('./Inter');
+const { Interpreter } = require('./Interpreter');
 
 class Client {
   constructor(options) {
     this.options = options;
     this.client = new Eris(this.options.token);
     this.client.commands = new Map();
+    this.parser = new Interpreter(this.client);
   }
 
   command(name, response) {
@@ -18,9 +19,10 @@ class Client {
       const args = msg.content.split(' ');
       const command = args.shift().toLowerCase();
 
+      if(msg.content == 'a') console.log(msg.author);
       if (this.client.commands.has(command)) {
         const response = this.client.commands.get(command);
-        msg.channel.createMessage(Inerprer.parse(response));
+        msg.channel.createMessage(this.parser.parse(response, msg));
       }
     });
   }
