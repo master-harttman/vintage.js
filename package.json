@@ -1,7 +1,7 @@
 {
   "name": "@master-harttmans/vintage.js",
-  "version": "1.0.0",
-  "description": "use it",
+  "version": "1.0.1",
+  "description": "easy library for creating bot, based on eris",
   "main": "./src/exports.js",
   "dependencies": {
     "dotenv": "^16.4.5",

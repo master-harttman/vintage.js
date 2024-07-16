@@ -1,6 +1,5 @@
 how to use this lib?
 
-EASY!
 ```js
 const {
   Client
@@ -11,10 +10,9 @@ const bot = new Client({
   token: "YOUR_Bot_TOKEM"
 });
 
-bot.command("ping", "$ping[]");
+bot.command("$Hello", "Hello, $author[username]");
+bot.command("$say", "$message[1;]");
 bot.start();
 ```
-install:
-```
-npm i @master-harttmans/vintage.js
-```
+
+docs: read wiki in github!
