@@ -4,7 +4,6 @@
   "description": "easy library for creating bot, based on eris",
   "main": "./src/exports.js",
   "dependencies": {
-    "dotenv": "^16.4.5",
     "eris": "^0.17.2",
     "opusscript": "^0.0.8",
     "tweetnacl": "^1.0.3",
