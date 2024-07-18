@@ -1,6 +1,6 @@
 const {
   Client
-} = require('./Classes/Bot');
+} = require('./Lib/Bot');
 /* base classes */
 
 module.exports = {
