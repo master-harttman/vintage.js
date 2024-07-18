@@ -10,8 +10,8 @@ const bot = new Client({
   token: "YOUR_Bot_TOKEM"
 });
 
-bot.command("$Hello", "Hello, $author[username]");
-bot.command("$say", "$message[1;]");
+bot.command("$Hello", "Hello, #author[username]");
+bot.command("$say", "#message[1;]");
 bot.start();
 ```
 
